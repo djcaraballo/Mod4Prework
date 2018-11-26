@@ -1,0 +1,364 @@
+const boondocks = {
+  "bestEpisodes": [
+    {
+      "title": "The Garden Party",
+      "season": 1,
+      "episodeNumber":  1,
+      "airDate": "November 6, 2005",
+      "setting":  "Woodcrest",
+      "protagonists": [
+        "Huey", 
+        "Riley", 
+        "Granddad"
+      ],
+      "antagonists": ["Uncle Ruckus"],
+      "peripheralCharacters": [
+        "Mr. Wuncler", 
+        "Ed Wuncler, III"
+      ],
+      "quotables": [
+        "Jesus was black, Ronald Reagan was the Devil and the government is lying about 9/11.", 
+        "Granddad, you can't tame the white supremacist power structure with cheese!"
+      ],
+      "rating": 7,
+      "flashbackIncluded":  true,
+      "referenceToGranddadsAge": true,
+    },
+    {
+      "title": "The Trial of R. Kelly",
+      "season": 1,
+      "episodeNumber": 2,
+      "airDate": "November 13, 2005",
+      "setting": "Woodcrest",
+      "protagonists": [
+        "Huey", 
+        "Riley", 
+        "Granddad"
+      ],
+      "antagonists": ["R. Kelly"],
+      "peripheralCharacters": [
+        "Tom Dubois", 
+        "Uncle Ruckus"
+      ],
+      "quotables": [
+        "All that money I spent on them damn Nikes, you better just do it!", 
+        "At what point does personal responsibility become a factor in this equation?"
+      ],
+      "rating": 7,
+      "flashbackIncluded": true,
+      "referenceToGranddadsAge": false,
+    },
+    {
+      "title": "A Huey Freeman Christmas",
+      "season": 1,
+      "episodeNumber": 7,
+      "airDate": "December 18, 2005",
+      "setting": "Woodcrest",
+      "protagonists": [
+        "Huey", 
+        "Jazmine"
+      ],
+      "antagonists": [
+        "Riley", 
+        "Principal"
+      ],
+      "peripheralCharacters": [
+        "Mr. Uberwitz", 
+        "Uncle Ruckus"
+      ],
+      "quotables": [
+        "You'll be fired for being an irresponsible white person.",
+        "Vision, what do you know about my vision? My vision would turn your world upside down, tear asunder your illusions, and send the sanctuary of your own ignorance crashing down around you. Now ask yourself, are you ready to see that vision?"
+      ],
+      "rating": 7,
+      "flashbackIncluded": false,
+      "referenceToGranddadsAge": false,
+    },
+    {
+      "title": "Return of the King",
+      "season": 1,
+      "episodeNumber": 9,
+      "airDate": "January 15, 2006",
+      "setting": "Woodcrest",
+      "protagonists": [
+        "Huey", 
+        "Dr. Martin Luther King, Jr."
+      ],
+      "antagonists": [],
+      "peripheralCharacters": [
+        "Rosa Parks", 
+        "Tom Dubois", 
+        "Uncle Ruckus"
+      ],
+      "quotables": [],
+      "rating": 7,
+      "flashbackIncluded": true,
+      "referenceToGranddadsAge": true,
+    },
+    {
+      "title": "The Passion of Reverend Ruckus",
+      "season": 1,
+      "episodeNumber": 15,
+      "airDate": "March 19, 2006",
+      "setting": "Woodcrest",
+      "protagonists": [
+        "Huey", 
+        "Shabazz K. Milton Bearle", 
+        "Granddad"
+      ],
+      "antagonists": [
+        "Uncle Ruckus", 
+        "Eli Gorbinsky"
+      ],
+      "peripheralCharacters": [
+        "Jazmine", 
+        "Tom"
+      ],
+      "quotables": [
+        "Operation black steel, the mission to free Shabazz K. Milton Berle, was aborted--because I couldn't get a ride."
+      ],
+      "rating": 10,
+      "flashbackIncluded": true,
+      "referenceToGranddadsAge": false,
+    },
+    {
+      "title": "Tom, Sarah, and Usher",
+      "season": 2,
+      "episodeNumber": 2,
+      "airDate": "October 15, 2007",
+      "setting": "Woodcrest",
+      "protagonists": [
+        "Tom", 
+        "Granddad"
+      ],
+      "antagonists": [
+        "Sarah", 
+        "Usher"
+      ],
+      "peripheralCharacters": [
+        "Jazmine", 
+        "A Pimp Named Slickback"
+      ],
+      "quotables": [
+        "Which one of us is running around missing a b****, Tom. Sans beech as the French in France would say.", 
+        "She wants excitement she can take her a** to the movies.", 
+        "Yes that includes the 'A Pimp Named' part. Yes, Tom, every time.", 
+        "Has not hitting the b**** achieved the desired result?"
+      ],
+      "rating": 9,
+      "flashbackIncluded": false,
+      "referenceToGranddadsAge": false,
+    },
+    {
+      "title": "Home Alone",
+      "season": 2,
+      "episodeNumber": 10,
+      "airDate": "December 17, 2007",
+      "setting": "Woodcrest",
+      "protagonists": [
+        "Granddad", 
+        "Huey", 
+        "Riley"
+      ],
+      "antagonists": ["Uncle Ruckus"],
+      "peripheralCharacters": ["Tom"],
+      "quotables": [],
+      "rating": 7,
+      "flashbackIncluded": false,
+      "referenceToGranddadsAge": false,
+    },
+    {
+      "title": "The Story of Catcher Freeman",
+      "season": 2,
+      "episodeNumber": 12,
+      "airDate": "January 28, 2008",
+      "setting":  "Woodcrest",
+      "protagonists": [
+        "Grandad", 
+        "Catcher Freeman"
+      ],
+      "antagonists": ["Uncle Ruckus"],
+      "quotables": [],
+      "rating": 7,
+      "flashbackIncluded": true,
+      "referenceToGranddadsAge": false,
+    },
+    {
+      "title": "The Story of Gangstalicious Pt. II",
+      "season": 2,
+      "episodeNumber": 13,
+      "airDate": "February 4, 2008",
+      "setting": "Woodcrest",
+      "protagonists": ["Riley"],
+      "antagonists": [],
+      "quotables": ["Don't do s*** for the homies!"],
+      "rating": 8,
+      "flashbackIncluded": false,
+      "referenceToGranddadsAge": false,
+    },
+    {
+      "title": "The Red Ball", 
+      "season": 3,
+      "episodeNumber": 3, 
+      "airDate": "May 16, 2010",
+      "setting": "Woodcrest",
+      "protagonists": ["Huey"],
+      "antagonists": [
+        "Ed Wuncler", 
+        "Grandad"
+      ], 
+      "quotables": [], 
+      "rating": 8, 
+      "flashbackIncluded": true, 
+      "referenceToGranddadsAge": false 
+    }
+  ],
+
+  "characters": [
+    {
+      "name": "Huey Freeman",
+      "aliases": [], 
+      "traits": [
+        "young", 
+        "black", 
+        "revolutionary", 
+        "radical", 
+        "articulate", 
+        "educated",
+        "domestic terrorist"
+      ],
+      "bestQuotes": [
+        "Jesus was black, Ronald Reagan was the Devil and the government is lying about 9/11.", 
+        "Granddad, you can't tame the white supremacist power structure with cheese!", 
+        "You'll be fired for being an irresponsible white person.",
+        "Vision, what do you know about my vision? My vision would turn your world upside down, tear asunder your illusions, and send the sanctuary of your own ignorance crashing down around you. Now ask yourself, are you ready to see that vision?"
+      ],
+      "mainCharacter": true,
+      "peripheralCharacter": false,
+      "likes": [
+        "social justice", 
+        "freedom fighting", 
+        "narrating", 
+        "kung fu", 
+        "nunchucks"
+      ],
+      "dislikes": [
+        "ignorant white people", 
+        "stereotypical black people", 
+        "social injustice"
+      ],
+    },
+    {
+      "name": "Riley Freeman",
+      "aliases": [
+        "Young Reezy",
+        "The Fundraiser",
+        "Riley Escobar"
+      ],
+      "traits": [
+        "young", 
+        "black", 
+        "misguided", 
+        "artist",
+        "public menace"
+      ],
+      "bestQuotes": ["At what point does personal responsibility become a factor in this equation?"],
+      "mainCharacter": true,
+      "peripheralCharacter": false,
+      "likes": [
+        "guns", 
+        "rappers", 
+        "hustling", 
+        "graffiti", 
+        "thug life", 
+        "video games"
+      ],
+      "dislikes": [
+        "weakness", 
+        "emotions"
+      ],
+    },
+    {
+      "name": "Robert Freeman",
+      "aliases": [
+        "Mr. B******", 
+        "Granddad"
+      ],
+      "traits": [
+        "old", 
+        "lonely"
+      ],
+      "bestQuotes": ["All that money I spent on them damn Nikes, you better just do it!"],
+      "mainCharacter": true,
+      "peripheralCharacter": false,
+      "likes": [
+        "cutie pies", 
+        "soul food", 
+        "Red Lobster"
+      ],
+      "dislikes": ["being embarassed by his grandkids"],
+    },
+    {
+      "name": "Uncle Ruckus",
+      "traits": [
+        "self-loathing", 
+        "revitiligo", 
+        "delusional"
+      ],
+      "bestQuotes": ["Don't trust them new n***** over there."],
+      "mainCharacter": true,
+      "peripheralCharacter": true,
+      "likes": [
+        "white Jesus", 
+        "white people", 
+        "Ronald Reagan"
+      ],
+      "dislikes": [
+        "himself", 
+        "black people"
+      ],
+    },
+    {
+      "name": "Tom Dubois",
+      "traits": [
+        "fearful of being anally raped", 
+        "married to Sarah", 
+        "lawyer"
+      ],
+      "bestQuotes": ["I could be anally raped!"],
+      "mainCharacter": true,
+      "peripheralCharacter": true,
+      "likes": [
+        "singing", 
+        "basketball"
+      ],
+      "dislikes": ["Usher"]
+    },
+    {
+      "name": "Sarah Dubois",
+      "traits": ["married to Tom"],
+      "bestQuotes": [],
+      "mainCharacter": false,
+      "peripheralCharacter": true,
+      "likes": [
+        "Usher", 
+        "black men"
+      ],
+      "dislikes": ["boredom"]
+    },
+    {
+      "name": "A Pimp Named Slickback",
+      "traits": [],
+      "bestQuotes": [
+        "Yes that includes the 'A Pimp Named' part. Yes, every time.", 
+        "Has not hitting the b**** achieved the desired result?"
+      ],
+      "mainCharacter": false,
+      "peripheralCharacter": false,
+      "likes": ["obedient hoes", "purple"],
+      "dislikes": ["mouthy hoes"]
+    }
+  ]
+}
+
+
