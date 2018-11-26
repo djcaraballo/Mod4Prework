@@ -1,3 +1,6 @@
+// Note: I tried the first 3 challenges but was only 
+// successful on the first one.
+
 const express = require('express');
 const app = express();
 const sunsets = require('./public/sunsets')
